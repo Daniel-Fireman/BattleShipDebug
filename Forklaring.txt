@@ -1,0 +1,9 @@
+Første bug:
+Første bug findes med et almindeligt breakpoint. Her findes frem til calculateEndPoint som evalueres i “Evaluate expression”
+Hvor det bliver tydeligt at maxValue skal være 2 for at veksle mellem 1 og 0 fremfor kun 0.
+
+Anden bug:
+Den anden bug findes ved conditional breakpoint. Her tjekkes hvad der sker når variablet er lig med 3. Det bliver tydeligt at der så her mangler et = sammen med >. Da hitCount ellers skal være 4 for at være større.
+
+Tredje bug:
+Ved trejde bug bruges tn indexOutOfBounds exception breakpoint til at lokalisere hvor fejlen opstår. Her skal skrives kode der sikrer at invalide output ikke kan komme videre.
